@@ -36,6 +36,42 @@
     margin-inline-end: 8px;
 }
 
+.logo a:hover {
+    transition: 0.15s;
+    color: pink;
+}
+
+svg:hover {
+    transition: 0.15s;
+}
+
+.social-icons a:nth-child(1) svg:hover{
+    color: pink !important;
+}
+
+.social-icons a:nth-child(2) svg:hover {
+    color: pink !important;
+}
+
+.social-icons a:nth-child(3) svg:hover {
+    color: pink !important;
+}
+
+#moon:hover {
+    transition: 0.15s;
+    color: deepskyblue;
+}
+
+#sun:hover {
+    transition: 0.15s;
+    color: gold;
+}
+
+#menu a:hover {
+    transition: 0.15s;
+    color: pink;
+}
+
 button#theme-toggle {
     font-size: 26px;
     margin: auto 4px;
